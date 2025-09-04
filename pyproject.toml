@@ -135,7 +135,7 @@ docs = [
 ]
 
 [tool.uv.sources]
-pipecat-ai-small-webrtc-prebuilt = { git = "https://github.com/ferreirapmartin/small-webrtc-prebuilt" }
+pipecat-ai-small-webrtc-prebuilt = { path = "libs/pipecat_ai_small_webrtc_prebuilt-1.0.0.tar.gz" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
