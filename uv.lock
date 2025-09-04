@@ -4468,7 +4468,7 @@ requires-dist = [
     { name = "ormsgpack", marker = "extra == 'fish'", specifier = "~=1.7.0" },
     { name = "pillow", specifier = ">=11.1.0,<12" },
     { name = "pipecat-ai-krisp", marker = "extra == 'krisp'", specifier = "~=0.4.0" },
-    { name = "pipecat-ai-small-webrtc-prebuilt", marker = "extra == 'runner'", path = "libs/pipecat_ai_small_webrtc_prebuilt-1.0.0.tar.gz" },
+    { name = "pipecat-ai-small-webrtc-prebuilt", marker = "extra == 'runner'", url = "https://github.com/ferreirapmartin/small-webrtc-prebuilt/raw/refs/heads/main/lib/pipecat_ai_small_webrtc_prebuilt-1.0.0.tar.gz" },
     { name = "protobuf", specifier = "~=5.29.3" },
     { name = "pvkoala", marker = "extra == 'koala'", specifier = "~=2.0.3" },
     { name = "pyaudio", marker = "extra == 'local'", specifier = "~=0.2.14" },
@@ -4549,7 +4549,7 @@ sdist = { url = "https://files.pythonhosted.org/packages/1d/37/0f1d11d1dc33234a3
 [[package]]
 name = "pipecat-ai-small-webrtc-prebuilt"
 version = "1.0.0"
-source = { path = "libs/pipecat_ai_small_webrtc_prebuilt-1.0.0.tar.gz" }
+source = { url = "https://github.com/ferreirapmartin/small-webrtc-prebuilt/raw/refs/heads/main/lib/pipecat_ai_small_webrtc_prebuilt-1.0.0.tar.gz" }
 dependencies = [
     { name = "fastapi", extra = ["all"] },
 ]
